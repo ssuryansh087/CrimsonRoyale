@@ -1,15 +1,34 @@
 import Content1 from './/assets/Img1.jpeg';
-//import Content2 from './assets/Img2.jpeg';
+import Content2 from './assets/Img2.jpeg';
+import Content3 from './assets/Img3.jpeg';
+import SimpleImageSlider from "react-simple-image-slider";
 
 function HomepageImages() {
+
+    const sliderImages = [
+        {
+            url:  Content1
+        },
+        {
+            url:  Content2
+        },
+        {
+            url:  Content3
+        },
+    ];
+
     return (
     <div className="HomepageImages">
-        <a href='/' className="prev" >&#10094;</a>
-        <img src={Content1} className='ContentImages' alt='Content1'/>
-        <div className='ImageCaption'>
-         <p className='ImageCaptions'>Royal Dining Experience</p>
+        <div id='Slider'>
+            <SimpleImageSlider
+            width={1000}
+            height={800}
+            images={sliderImages}
+            showNavs={false}
+            autoPlay={true}
+            autoPlayDelay={3}
+            /> 
         </div>
-        <a href='/' className="next" >&#10095;</a>
     </div>
     )
 }

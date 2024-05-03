@@ -1,0 +1,220 @@
+#receipt_container {
+    position: relative; /* Needed to position the pseudo-element */
+    padding: 20px; 
+    border: 2px solid black; 
+    border-radius: 50px; 
+    margin: auto; 
+    width: 80%; 
+    box-sizing: border-box; 
+    height: 1300px;
+    overflow: hidden; 
+    background-color: #A9927D;
+}
+
+#receipt_container::before {
+    content: ""; /* Required for pseudo-elements */
+    position: absolute; /* Position relative to the container */
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;
+    background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(300px); /* Adjust blur amount as needed */
+    z-index: -1; /* Ensures the image stays behind the content */
+}
+
+ 
+ 
+#textt h1{
+    font-family: "Tilt Neon";
+    font-size: 70px;
+    text-decoration:none;
+    color:#F4F2F3;
+}
+
+
+#one{
+    margin-top: 10px;
+    border: 1px solid black; 
+    border-radius: 10%;
+    justify-content: space-between;
+    width:20%;
+    height:200px;
+    text-align: center;
+    margin-left: 5%;
+}
+#for h2{
+    margin-left:50px;
+    color:#F4F2F3;
+}
+
+#two{
+    margin-top: 10px;
+    border: 1px solid black; 
+    border-radius: 4px;
+    width:20%;
+    height:150px;
+    text-align: center;
+    margin-right: 3%;
+}
+.small{
+    display: flex;
+    justify-content: space-between;
+}
+.bar1{
+    margin-top: 10%;
+    border:2px solid black;
+    width:95%;
+    align-self: center;
+    font-size: small;
+    margin-left: 2.5%;
+    border-radius: 25px;
+}
+.bar1 h1{
+    text-align: left;
+    padding-left: 2%;
+    color:#F4F2F3;
+}
+.bar2 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border:2px solid black;
+    border-radius: 25px;
+    height:200px;
+    font-size: large;
+    font-family:"Sedan";
+}
+
+.form-group {
+    display: flex; /* Aligns label and input side by side */
+    align-items: center; /* Vertically center aligns the items in the container */
+    margin-bottom: 20px;
+    margin-left:40px;
+    margin-top:10px;
+    font-family: "M PLUS 1 Code",black;
+    font-size: 20px;
+}
+
+.form-group label {
+    margin-right: 10px; /* Provides space between the label and the input */
+    width: 100px; /* Fixed width for labels */
+    flex-shrink: 0;
+    border-right: 2px solid black;
+    margin-top: 5px; /* Prevents the label from shrinking */
+}
+
+.form-group input, .form-group select {
+    flex-grow: 0.5; /* Allows input and select to take up remaining space */
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+  
+}
+
+.bar3{
+    margin-top:2%;
+    border:2px solid black;
+    width:95%;
+    align-self: center;
+    font-size: 13px;
+    margin-left: 2.5%;
+    border-radius: 25px;
+    height:350px;
+    font-size: large;
+}
+
+.bar3 h1{
+    font-family: "Tilt Neon";
+    color:#F4F2F3;
+}
+.payment-option {
+    display: block;
+    margin-bottom: 10px;
+    font-family: "Sedan";
+    font-size: 30px;
+}
+
+
+.payment-option label {
+    margin-left: 10px;
+}
+
+.ReceiptInput {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left:10px;
+}
+
+.ReceiptRadio {
+    margin-right: 5px;
+}
+
+#SubmitPayment {
+    padding: 10px 20px;
+    background-color: #d9b650;
+    color: black;
+    border: 3px SOLID black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    margin-left: 40%;
+    margin-top:5%;
+    width: 20%;
+}
+
+#SubmitPayment:hover{
+    color: #d9b650;
+    background-color: black;
+}
+
+#BookingName{
+    background-color: white;
+    width: 80%;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#BookingName::placeholder{
+    color: #000;
+}
+
+#BookingFor{
+    font-size: 40px;
+}
+
+#ReceiptDate{
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 10%;
+}
+
+#ReceiptDateBox{
+    background-color: brown;
+    width: 100%;
+}
+
+#PaymentMethod{
+    margin-left: 1%;
+}
+
+#QRClose{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 25px;
+}
+
+#QRClose:hover{
+    cursor: pointer;
+    background-color: #000;
+    color: goldenrod;
+}

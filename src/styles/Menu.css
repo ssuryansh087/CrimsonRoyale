@@ -1,0 +1,36 @@
+.body{
+    overflow: auto;
+    overflow-x: visible;
+    overflow-y: visible;
+}
+
+.gg-arrow-left{
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 1%;  
+  }
+  
+  #BackToHome{
+    position: absolute;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #53503F;
+    left: 2.5%;
+    top: 0.5%;
+  }
+  
+  #BackToHome:hover{
+    color: #0A0908;
+    cursor: pointer;
+  }
+
+.ImageContainer{
+    width: 100%;
+    display: block;
+}
+
+.MenuPages{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}

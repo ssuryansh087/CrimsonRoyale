@@ -1,0 +1,101 @@
+.Container{
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+#MeetOurChefs{
+    margin: 0;
+    font-size: 5rem;
+    text-align: center;
+    background-color: #0A0908;
+    color: goldenrod;
+    padding-bottom: 1%;
+    border-radius: 10px;
+}
+
+#BackToHome1{
+    position: absolute;
+    text-decoration: none;
+    font-size: 2rem;
+    color: whitesmoke;
+    left: 3%;
+    top: 5%;
+}
+  
+#BackToHome1:hover{
+    color: goldenrod;
+    cursor: pointer;
+}
+
+.MainChefs{
+    background-color: #A9917D;
+    position: relative;
+    margin-top: 1%;
+    border-radius: 10px;
+}
+
+.ChefName{
+    margin: 0;
+    font-size: 4rem;
+    position: absolute;
+    top: 0%;
+    left: 55%;
+}
+
+.ChefDesc{
+    margin: 0;
+    width: 60%;
+    font-size: 2.2rem;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+}
+
+.ChefImages{
+    width: 25%;
+    height: 25%;
+    margin: 2%;
+}
+
+.Specials{
+    font-size: 4rem;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.SpecialContainer{
+    background-color: #5e503f;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.SpecialTitle{
+    font-size: 3rem;
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    color: whitesmoke;
+}
+
+.SpecialDesc{
+    font-size: 2rem;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    width: 60%;
+    color: whitesmoke;
+}
+
+.SpecialImages{
+    width: 20%;
+    height: 20%;
+    margin: 3%;
+    border-radius: 50%;
+}

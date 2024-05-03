@@ -1,0 +1,153 @@
+#AdContainerTop{
+    background-color: #A9927D;
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+}
+
+#AdContainerMid{
+    background-color: #5E503F;
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+}
+
+#AdContainerBottom{
+    background-color: #8c775e;
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+}
+    
+#DownloadLeft{
+    width: 35%;
+    margin-left: 15%;
+}
+
+#DownloadRight{
+    width: 35%;
+    margin-right: 15%;
+}
+
+#DownloadLeft1{
+    width: 35%;
+    margin-left: 15%;
+}
+
+#DownloadRight1{
+    width: 35%;
+    margin-right: 15%;
+}
+
+#DownloadLeft2{
+    width: 35%;
+    margin-left: 15%;
+}
+
+#DownloadRight2{
+    width: 35%;
+    margin-right: 15%;
+}
+
+#DownloadTheApp{
+    text-align: center;
+    margin: 0;
+    font-size: 80px;
+    color: #f2f4f3;
+    padding-top: 1%;
+}
+
+.AppAd{
+    font-size: 29px;
+    color: #f2f4f3;
+    margin: 0;
+}
+
+#DiscountAd{
+    font-size: 29px;
+    color: gold;
+    margin: 0;
+}
+
+#MuchMore{
+    font-size: 80px;
+    color: gold;
+    margin: 0;
+}
+
+#AndroidImage{
+    border-radius: 20px;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+#DownloadImages{
+    display: flex;
+}
+
+#CrimsonRoyaleQR{
+    width: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+}
+
+#percentAge{
+    text-align: center;
+    font-size: 300px;
+    margin: 0;
+}
+
+#muchMore{
+    border-radius: 50%;
+    width: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+}
+
+#DownloadButton{
+    width: 40%;
+    height: 100%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 35px;    
+    margin-left: 5%;
+    margin-top: 10%;
+    border: solid 3px #53503f;
+    color: #53503f;
+    background-color: white;
+}
+
+#DownloadButton:hover{
+    cursor: pointer;
+    color: #f2f4f3;
+    background-color: #53503f;
+    border: solid 3px #f2f4f3;
+}
+
+#DiscountButton{
+    width: 40%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 50px;    
+    margin-left: 25%;
+    border: solid 3px #f2f4f3;
+    color: #f2f4f3;
+    background-color: #53503f;
+    
+}
+
+#DiscountButton:hover{
+    cursor: pointer;
+    color: #53503f;
+    background-color: whitesmoke;
+    border: solid 3px #53503f;
+}

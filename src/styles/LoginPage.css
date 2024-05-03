@@ -1,0 +1,238 @@
+body{
+  background-color: white;
+}
+
+.leftContainer{
+  width: 60%;
+  height: 100vh;
+  background-color: whitesmoke;
+  float: left;
+}
+
+.gg-arrow-left{
+  position: absolute;
+  margin-left: 1%;
+  margin-top: 1%;  
+}
+
+#BackToHome{
+  position: absolute;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #53503F;
+  left: 2.5%;
+  top: 0.5%;
+}
+
+#BackToHome:hover{
+  color: #0A0908;
+  cursor: pointer;
+}
+
+#loginText{
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  padding-top: 20%;
+  font-size: 3.5rem;
+}
+
+#loginUsingSocial{
+  font-size: 1rem;
+  text-align: center;
+}
+
+#socialIcons{
+  display: flex;
+  justify-content: center;
+}
+
+.fa { 
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: none;
+  color: #53503F;
+}
+
+.fa-facebook{
+  margin-left: 3%;
+}
+
+.fa-google:hover {
+  color: red;
+}
+
+.fa-facebook:hover {
+  color: blue;
+  margin-left: 3%;
+}
+
+#usernameID{
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-align: center;
+  display: block;
+  margin-top: 1%;
+}
+
+#usernameInput{
+  margin-left: auto;
+  border: none;
+  width: 40%;
+  padding: 1% 1% 1% 1%;
+  background-color: #A9927D;
+  font-size: 1.5rem;
+  border-radius: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+::placeholder{
+  opacity: 1;
+  color: white;
+}
+
+#passwordID{
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-align: center;
+  position: relative;
+}
+
+#passwordInput{
+  margin-left: auto;
+  border: none;
+  width: 40%;
+  padding: 1% 1% 1% 1%;
+  background-color: #A9927D;
+  font-size: 1.5rem;
+  border-radius: 1.4rem;
+}
+
+.toggleButton{
+  position: absolute;
+  z-index: 10;
+  left: 64.5%;
+  margin-left: auto;
+  margin-top: 10px;
+  width: 4rem;
+  padding: 0.5% 0.5% 0.5% 0.5%;
+  border: none;
+  background-color: #53503F;
+  color: white;
+  font-size: 1.3rem;
+  border-radius: 1.4rem;
+}
+
+.toggleButton:hover{
+  background-color: #0A0908;
+  cursor: pointer;
+}
+
+#submitButton{
+  text-align: center;
+  width: 20%;
+  margin-left: 40%;
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #0A0908;
+  color: white;
+  font-size: 2rem;
+}
+
+#submitButton:hover{
+  background-color: #53503F;
+  cursor: pointer;
+}
+
+#AdminIcon{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  left: 42%;
+  top: 89%;
+}
+
+#adminButton{
+  position: absolute;
+  top: 90%;
+  left: 48%;
+  text-align: center;
+  text-decoration: none;
+  width: 10%;
+  margin-top: 1rem;
+  padding-bottom: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #53503F;
+  color: white;
+  font-size: 2rem;
+}
+
+#adminButton:hover{
+  background-color: #0A0908;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.rightContainer{
+  width: 40%;
+  margin-left: 60%;
+  background-color: #53503F;
+  height: 100vh;
+}
+
+#newHere{
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  margin-top: 5%;
+}
+
+#SignUpText{
+  font-size: 2rem;
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.offers{
+  font-size: 1.5rem;
+  text-align: center;
+  color: whitesmoke;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#Logo{
+  width: 20%;
+  height: 20%;
+  margin-left: 40%;
+  margin-top: 10%;
+}
+
+#signUpButton{
+  text-align: center;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #0A0908;
+  color: white;
+  font-size: 2rem;
+}
+
+#signUpButton:hover{
+  background-color: whitesmoke;
+  color: #0A0908;
+  cursor: pointer;
+}

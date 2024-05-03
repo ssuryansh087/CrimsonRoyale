@@ -1,16 +1,17 @@
+import { Link } from 'react-router-dom'
 import Logo from './/assets/Logo2.png'
 
 function Navbar(){
     return(
     <div className="Navbar">
         <img src={Logo} id="MainLogo" alt="Logo"/>
-        <a href="/" id="CrimsonRoyale">Crimson Royale</a>
-        <a href="/" id="Home">Home</a>
-        <a href="/" className="NavButtons">Browse Our Menu</a>
-        <a href="/" className="NavButtons">Locations</a>
-        <a href="/" className="NavButtons">Account</a>
+        <Link to="/" id="CrimsonRoyale">Crimson Royale</Link>
+        <Link to="/" id="Home">Home</Link>
+        <Link to="/Menu" className="NavButtons">Browse Our Menu</Link>
+        <Link to="/DownloadApp" className="NavButtons">Download Our App</Link>
+        <Link to="/LoginPage" className="NavButtons">Account</Link>
     </div>
     )
 }
 
-export default Navbar
+export default Navbar;

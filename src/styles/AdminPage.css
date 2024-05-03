@@ -1,0 +1,130 @@
+#AdminContainer{
+    height: 100vh;
+    background-color: #49111C;
+}
+
+#AdminToHome{
+    position: absolute;
+    text-decoration: none;
+    font-size: 2rem;
+    color: gold;
+    left: 2.5%;
+    top: 0.5%;
+  }
+
+#AdminLogo{
+    margin-top: 1%;
+    margin-left: 45%;
+    width: 10%;
+    height: 200px;
+}
+
+.wrapper {
+    margin-left: 30%;
+    margin-top: 5%;
+    background: transparent;
+    background-color: rgba(255, 255, 255, .25);
+    width: 40%;
+    color: black;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    overflow: hidden; 
+    color: #f2f4f3;
+    animation: typing 4s steps(10, end) forwards, pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.01);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 80%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid #f2f4f3;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 5%;
+    padding-left: 1%;
+    color: #f2f4f3;
+}
+
+.input-box input::placeholder {
+    color: #f2f4f3;
+    font-family: Mirza;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 45px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    color: #f2f4f3;
+}
+
+.wrapper .remember-forgot {
+    font-size: 30px;
+    margin-left: 4.5%;
+    margin-bottom: 5%;
+}
+
+.remember-forgot label input {
+    accent-color: black;
+    margin-right: 4px;
+    text-decoration: none;
+}
+
+.remember-forgot a {
+    text-decoration: none;
+    color: #f2f4f3;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+    
+}
+
+.wrapper button {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    height: 45px;
+    background: #fff;
+    border: 3px solid #000;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    font-weight: 700px;
+}
+
+.wrapper button:hover{
+    color: #fff;
+    background-color: #000;
+    border: 3px solid #fff;
+}
