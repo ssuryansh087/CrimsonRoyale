@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/CrimsonRoyale/static/css/main.32cce08a.css",
+    "main.js": "/CrimsonRoyale/static/js/main.96c41e9e.js",
+    "static/media/Layout.png": "/CrimsonRoyale/static/media/Layout.8cca54ba438ed3490cb4.png",
+    "static/media/2.png": "/CrimsonRoyale/static/media/2.d751f8729eb822aa5945.png",
+    "static/media/3.png": "/CrimsonRoyale/static/media/3.1c2083489eaf00a6eb43.png",
+    "static/media/1.png": "/CrimsonRoyale/static/media/1.aa48a3c881bf213a6dcb.png",
+    "static/media/Img3.jpeg": "/CrimsonRoyale/static/media/Img3.8ee71abb5146b5da5d69.jpeg",
+    "static/media/CrimsonRoyaleMenu.pdf": "/CrimsonRoyale/static/media/CrimsonRoyaleMenu.e1b549cf9c1009dba1c0.pdf",
+    "static/media/muchMore.png": "/CrimsonRoyale/static/media/muchMore.130d6aab603876c62964.png",
+    "static/media/Img2.jpeg": "/CrimsonRoyale/static/media/Img2.9082c368dcf7d31e81ae.jpeg",
+    "static/media/FrenchToast-1.jpeg": "/CrimsonRoyale/static/media/FrenchToast-1.6cbb02e1f6b8cf88e89a.jpeg",
+    "static/media/Menu4.jpeg": "/CrimsonRoyale/static/media/Menu4.584ea315cf7b90df36f1.jpeg",
+    "static/media/ChanaMasala-1.jpeg": "/CrimsonRoyale/static/media/ChanaMasala-1.c2441e6d089ed2bcb708.jpeg",
+    "static/media/Menu3.jpeg": "/CrimsonRoyale/static/media/Menu3.c2441e6d089ed2bcb708.jpeg",
+    "static/media/Img1.jpeg": "/CrimsonRoyale/static/media/Img1.f7680fc565b780bd4c60.jpeg",
+    "static/media/ShahiPaneer-1.jpeg": "/CrimsonRoyale/static/media/ShahiPaneer-1.6a620344c01e8a3075b0.jpeg",
+    "static/media/BreadOmlette-1.jpeg": "/CrimsonRoyale/static/media/BreadOmlette-1.3140f5c6bebedde46387.jpeg",
+    "static/media/Menu2.jpeg": "/CrimsonRoyale/static/media/Menu2.3140f5c6bebedde46387.jpeg",
+    "static/media/Menu1.jpeg": "/CrimsonRoyale/static/media/Menu1.a23f80b579ca79d1b6c7.jpeg",
+    "static/media/KulfiFalooda-1.jpeg": "/CrimsonRoyale/static/media/KulfiFalooda-1.8b4ef13563f8f979ec7d.jpeg",
+    "static/media/AndroidStockImage.png": "/CrimsonRoyale/static/media/AndroidStockImage.0695421c2a7e3862b904.png",
+    "static/media/CassataIceCream-1.jpeg": "/CrimsonRoyale/static/media/CassataIceCream-1.c0b9366a7c8b4987c24b.jpeg",
+    "static/media/Chef2.jpeg": "/CrimsonRoyale/static/media/Chef2.b4957cc04212f9454404.jpeg",
+    "static/media/Chef1.jpeg": "/CrimsonRoyale/static/media/Chef1.35414bcda6759b9f468e.jpeg",
+    "static/media/Chef3.jpeg": "/CrimsonRoyale/static/media/Chef3.bc4c683ef66acc269b10.jpeg",
+    "static/media/Logo2.png": "/CrimsonRoyale/static/media/Logo2.7e99b1e4abeb4594b60f.png",
+    "static/media/Icon.png": "/CrimsonRoyale/static/media/Icon.99d6a4e653134ac357c6.png",
+    "static/media/CrimsonRoyaleQR.png": "/CrimsonRoyale/static/media/CrimsonRoyaleQR.190297f03d00bc824882.png",
+    "index.html": "/CrimsonRoyale/index.html",
+    "main.32cce08a.css.map": "/CrimsonRoyale/static/css/main.32cce08a.css.map",
+    "main.96c41e9e.js.map": "/CrimsonRoyale/static/js/main.96c41e9e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32cce08a.css",
+    "static/js/main.96c41e9e.js"
+  ]
+}
